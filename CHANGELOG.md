@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.3.0](https://github.com/ptah-sh/ptah-busybox/compare/v0.2.3...v0.3.0) (2024-11-07)
+
+
+### Features
+
+* better docker_build.sh ([4cdf540](https://github.com/ptah-sh/ptah-busybox/commit/4cdf540ed599e0d265901f485a2b5d62e8caecc2))
+
 ## [0.2.3](https://github.com/ptah-sh/ptah-busybox/compare/v0.2.2...v0.2.3) (2024-11-07)
 
 
