@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.2.3](https://github.com/ptah-sh/ptah-busybox/compare/v0.2.2...v0.2.3) (2024-11-07)
+
+
+### Bug Fixes
+
+* exec permissions ([a8ccbb3](https://github.com/ptah-sh/ptah-busybox/commit/a8ccbb363dc103115f3617303fe0f87829451db6))
+
 ## [0.2.2](https://github.com/ptah-sh/ptah-busybox/compare/v0.2.1...v0.2.2) (2024-11-07)
 
 
