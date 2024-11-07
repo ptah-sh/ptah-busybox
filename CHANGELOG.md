@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.2.0](https://github.com/ptah-sh/ptah-busybox/compare/v0.1.0...v0.2.0) (2024-11-07)
+
+
+### Features
+
+* handle force pushes ([a121780](https://github.com/ptah-sh/ptah-busybox/commit/a1217806bed17c2f8f65812ba95ff79fba18904a))
+
 ## [0.1.0](https://github.com/ptah-sh/ptah-busybox/compare/v0.0.1...v0.1.0) (2024-11-07)
 
 
