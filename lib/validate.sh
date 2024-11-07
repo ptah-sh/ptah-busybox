@@ -1,5 +1,7 @@
 #!/bin/sh
 
+set -e
+
 # Function to check if a variable is set and not empty
 check_var() {
     eval value=\$$1
