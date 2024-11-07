@@ -14,5 +14,12 @@ RUN apt-get update && \
     apt-get install -y docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin && \
     # - Install Docker
     # + Install Nixpacks
-    curl -sSL https://nixpacks.com/install.sh | bash
+    curl -sSL https://nixpacks.com/install.sh | bash && \
     # - Install Nixpacks
+    echo 'All packages installed'
+
+WORKDIR /ptah/bin
+COPY bin/ ./
+RUN chmod +x ./*
+
+ENV PATH="/ptah/bin:${PATH}"
