@@ -18,10 +18,10 @@ RUN apt-get update && \
     # - Install Nixpacks
     echo 'All packages installed'
 
-WORKDIR /ptah/bin
+WORKDIR /ptah
 
-COPY bin/ ./
-COPY lib/ ./
+COPY bin/ ./bin
+COPY lib/ ./lib
 
 RUN chmod +x ./*
 
