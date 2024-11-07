@@ -1,7 +1,7 @@
 FROM ubuntu:latest
 
 RUN apt-get update && \
-    apt-get install -y git curl s3cmd ca-certificates && \
+    apt-get install -y git curl s3cmd ca-certificates jq && \
     # + Install Docker
     install -m 0755 -d /etc/apt/keyrings && \
     curl -fsSL https://download.docker.com/linux/ubuntu/gpg -o /etc/apt/keyrings/docker.asc && \
@@ -19,7 +19,10 @@ RUN apt-get update && \
     echo 'All packages installed'
 
 WORKDIR /ptah/bin
+
 COPY bin/ ./
+COPY lib/ ./
+
 RUN chmod +x ./*
 
 ENV PATH="/ptah/bin:${PATH}"
