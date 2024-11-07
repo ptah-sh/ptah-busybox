@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.1.0](https://github.com/ptah-sh/ptah-busybox/compare/v0.0.1...v0.1.0) (2024-11-07)
+
+
+### Features
+
+* add basic scripts ([ffbafcf](https://github.com/ptah-sh/ptah-busybox/commit/ffbafcf18639862f91ebf9970174574013bf6e46))
+
 ## [0.0.1](https://github.com/ptah-sh/ptah-busybox/compare/v0.0.1...v0.0.1) (2024-11-06)
 
 
