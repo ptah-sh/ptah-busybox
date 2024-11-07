@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.2.1](https://github.com/ptah-sh/ptah-busybox/compare/v0.2.0...v0.2.1) (2024-11-07)
+
+
+### Bug Fixes
+
+* copy lib ([8b87594](https://github.com/ptah-sh/ptah-busybox/commit/8b87594dc74d56f54747fe435ba23f56dbc40891))
+
 ## [0.2.0](https://github.com/ptah-sh/ptah-busybox/compare/v0.1.0...v0.2.0) (2024-11-07)
 
 
