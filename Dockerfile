@@ -23,6 +23,6 @@ WORKDIR /ptah
 COPY bin/ ./bin
 COPY lib/ ./lib
 
-RUN chmod +x ./*
+RUN chmod +x ./bin/*
 
 ENV PATH="/ptah/bin:${PATH}"
