@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.5.1](https://github.com/ptah-sh/ptah-busybox/compare/v0.5.0...v0.5.1) (2024-11-08)
+
+
+### Bug Fixes
+
+* [#12](https://github.com/ptah-sh/ptah-busybox/issues/12) bash function syntax ([11b7bcc](https://github.com/ptah-sh/ptah-busybox/commit/11b7bcc0e3b63a1074eb16a2058df429066410a3))
+
 ## [0.5.0](https://github.com/ptah-sh/ptah-busybox/compare/v0.4.0...v0.5.0) (2024-11-08)
 
 
