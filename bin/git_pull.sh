@@ -4,23 +4,14 @@ set -e
 
 # Source the shared library
 . "$(dirname "$0")/../lib/validate.sh"
+. "$(dirname "$0")/../lib/sync.sh"
 
 check_var GIT_REPO
 check_var GIT_REF
 check_var TARGET_DIR
 
-# Create a lock file in /tmp (using TARGET_DIR in name to make it unique)
-LOCK_FILE="/tmp/$(echo "${TARGET_DIR}" | sed 's/\//_/g').lock"
-touch "$LOCK_FILE"
-
-# Attempt to acquire lock, fail if cannot obtain it
-echo "Acquiring lock..."
-(
-    if ! flock -n 9; then
-        echo "Error: Another process is currently updating the repository"
-        exit 1
-    fi
-
+# Define the git sync operation as a function
+git_sync() {
     echo "Syncing with remote repository"
 
     if [ -d "$TARGET_DIR/.git" ]; then
@@ -47,4 +38,6 @@ echo "Acquiring lock..."
         echo "Cloning repository"
         git clone --depth 1 "$GIT_REPO" -b "$GIT_REF" "$TARGET_DIR"
     fi
-) 9>"$LOCK_FILE"
+}
+
+with_lock "${TARGET_DIR}" git_sync
