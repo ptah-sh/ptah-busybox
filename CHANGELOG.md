@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.4.0](https://github.com/ptah-sh/ptah-busybox/compare/v0.3.0...v0.4.0) (2024-11-08)
+
+
+### Features
+
+* improve flock logic ([a52fcfc](https://github.com/ptah-sh/ptah-busybox/commit/a52fcfc5461545718fec071d46e6132aaac4c222))
+
 ## [0.3.0](https://github.com/ptah-sh/ptah-busybox/compare/v0.2.3...v0.3.0) (2024-11-07)
 
 
