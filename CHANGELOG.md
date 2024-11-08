@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.5.0](https://github.com/ptah-sh/ptah-busybox/compare/v0.4.0...v0.5.0) (2024-11-08)
+
+
+### Features
+
+* [#12](https://github.com/ptah-sh/ptah-busybox/issues/12) support builds with nixpacks ([73de48c](https://github.com/ptah-sh/ptah-busybox/commit/73de48c6ef50112c1e6f72506de4c700d615ef38))
+
 ## [0.4.0](https://github.com/ptah-sh/ptah-busybox/compare/v0.3.0...v0.4.0) (2024-11-08)
 
 
