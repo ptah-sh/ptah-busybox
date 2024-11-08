@@ -14,7 +14,7 @@ check_var IMAGE_NAME
 BUILD_DIR=$(mktemp -d)
 trap 'rm -rf "$BUILD_DIR"' EXIT
 
-function copy_files() {
+copy_files() {
     cp -r "$TARGET_DIR"/* "$BUILD_DIR"
 }
 
