@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.7.2](https://github.com/ptah-sh/ptah-busybox/compare/v0.7.1...v0.7.2) (2024-11-09)
+
+
+### Bug Fixes
+
+* [#17](https://github.com/ptah-sh/ptah-busybox/issues/17) rever host key checking for git pulls ([b213c58](https://github.com/ptah-sh/ptah-busybox/commit/b213c58ed4967936bab9bc807eb663a47330519b))
+
 ## [0.7.1](https://github.com/ptah-sh/ptah-busybox/compare/v0.7.0...v0.7.1) (2024-11-09)
 
 
