@@ -1,5 +1,17 @@
 # Changelog
 
+## [0.7.0](https://github.com/ptah-sh/ptah-busybox/compare/v0.6.0...v0.7.0) (2024-11-09)
+
+
+### Features
+
+* [#17](https://github.com/ptah-sh/ptah-busybox/issues/17) store ssh keypair to .ssh on startup ([53a1ae9](https://github.com/ptah-sh/ptah-busybox/commit/53a1ae98144f2404ec5b4310b8c47e639ef00229))
+
+
+### Bug Fixes
+
+* [#12](https://github.com/ptah-sh/ptah-busybox/issues/12) apply git global setting for host key checking ([5484230](https://github.com/ptah-sh/ptah-busybox/commit/5484230c3732cb129f6f024d3a7f67e4716d47b3))
+
 ## [0.6.0](https://github.com/ptah-sh/ptah-busybox/compare/v0.5.1...v0.6.0) (2024-11-09)
 
 
