@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.6.0](https://github.com/ptah-sh/ptah-busybox/compare/v0.5.1...v0.6.0) (2024-11-09)
+
+
+### Features
+
+* [#12](https://github.com/ptah-sh/ptah-busybox/issues/12) try support private git registries ([1f37ade](https://github.com/ptah-sh/ptah-busybox/commit/1f37adeca0f6bbaa9c909a7149873f9601d6c3ca))
+
 ## [0.5.1](https://github.com/ptah-sh/ptah-busybox/compare/v0.5.0...v0.5.1) (2024-11-08)
 
 
