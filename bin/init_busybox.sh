@@ -2,6 +2,8 @@
 
 set -e
 
+echo "Initializing Busybox"
+
 # Source the shared library
 . "$(dirname "$0")/../lib/validate.sh"
 
@@ -21,3 +23,5 @@ echo "$PTAH_SSH_PRIVATE_KEY" > ~/.ssh/id_rsa
 
 chmod 600 ~/.ssh/id_rsa
 chmod 644 ~/.ssh/id_rsa.pub
+
+exec "$@"

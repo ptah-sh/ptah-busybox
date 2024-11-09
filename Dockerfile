@@ -23,7 +23,6 @@ WORKDIR /ptah
 COPY bin/ ./bin
 COPY lib/ ./lib
 
-RUN chmod +x ./bin/* && \
-    echo '/ptah/bin/init_busybox.sh' >> /root/.bashrc
+RUN chmod +x ./bin/*
 
 ENV PATH="/ptah/bin:${PATH}"
