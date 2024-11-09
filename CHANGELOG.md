@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.7.3](https://github.com/ptah-sh/ptah-busybox/compare/v0.7.2...v0.7.3) (2024-11-09)
+
+
+### Bug Fixes
+
+* [#17](https://github.com/ptah-sh/ptah-busybox/issues/17) allow to use init_busybox.sh as an entrypoint ([b7451ea](https://github.com/ptah-sh/ptah-busybox/commit/b7451ea4625e4cc325aff4109d30e97df8568735))
+
 ## [0.7.2](https://github.com/ptah-sh/ptah-busybox/compare/v0.7.1...v0.7.2) (2024-11-09)
 
 
