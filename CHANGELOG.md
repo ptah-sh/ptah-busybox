@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.7.4](https://github.com/ptah-sh/ptah-busybox/compare/v0.7.3...v0.7.4) (2024-11-09)
+
+
+### Bug Fixes
+
+* [#17](https://github.com/ptah-sh/ptah-busybox/issues/17) rename init_busybox to entrypoint ([609a043](https://github.com/ptah-sh/ptah-busybox/commit/609a04350e24f99c3277f374ac3758a2fbf738f7))
+
 ## [0.7.3](https://github.com/ptah-sh/ptah-busybox/compare/v0.7.2...v0.7.3) (2024-11-09)
 
 
