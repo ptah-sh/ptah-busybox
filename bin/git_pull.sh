@@ -10,8 +10,6 @@ check_var GIT_REPO
 check_var GIT_REF
 check_var TARGET_DIR
 
-git config --global core.sshCommand 'ssh -o StrictHostKeyChecking=accept-new'
-
 # Define the git sync operation as a function
 git_sync() {
     echo "Syncing with remote repository"

@@ -5,8 +5,8 @@ set -e
 # Source the shared library
 . "$(dirname "$0")/../lib/validate.sh"
 
-check_env_var PATH_SSH_PUBLIC_KEY
-check_env_var PATH_SSH_PRIVATE_KEY
+check_var PATH_SSH_PUBLIC_KEY
+check_var PATH_SSH_PRIVATE_KEY
 
 mkdir -p ~/.ssh
 chmod 700 ~/.ssh
