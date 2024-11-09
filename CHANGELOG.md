@@ -1,5 +1,13 @@
 # Changelog
 
+## [0.7.1](https://github.com/ptah-sh/ptah-busybox/compare/v0.7.0...v0.7.1) (2024-11-09)
+
+
+### Bug Fixes
+
+* [#17](https://github.com/ptah-sh/ptah-busybox/issues/17) correct env var validation call ([32980a4](https://github.com/ptah-sh/ptah-busybox/commit/32980a461331dcc0a5982b5cfcfecaef43870be4))
+* [#17](https://github.com/ptah-sh/ptah-busybox/issues/17) env var name typo ([6cfc26d](https://github.com/ptah-sh/ptah-busybox/commit/6cfc26dec6cb0f1e9948628750ae3b83857121bc))
+
 ## [0.7.0](https://github.com/ptah-sh/ptah-busybox/compare/v0.6.0...v0.7.0) (2024-11-09)
 
 
